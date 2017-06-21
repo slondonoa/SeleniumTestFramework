@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{88C40A3D-2437-4E38-BC35-FF85D41CEADA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SeleniumFramework", "SeleniumFramework", "{E98CDA00-B80A-4984-9FEA-933AFA1F9E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumFramework", "SeleniumFramework\SeleniumFramework.csproj", "{8C8B4058-BA75-45D8-BF00-C372E9F19EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AviancaTest", "AviancaTest\AviancaTest.csproj", "{3DFB6C3D-6A5A-4C5D-8A99-0583D729E14C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C8B4058-BA75-45D8-BF00-C372E9F19EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8B4058-BA75-45D8-BF00-C372E9F19EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8B4058-BA75-45D8-BF00-C372E9F19EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8B4058-BA75-45D8-BF00-C372E9F19EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFB6C3D-6A5A-4C5D-8A99-0583D729E14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFB6C3D-6A5A-4C5D-8A99-0583D729E14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFB6C3D-6A5A-4C5D-8A99-0583D729E14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFB6C3D-6A5A-4C5D-8A99-0583D729E14C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C8B4058-BA75-45D8-BF00-C372E9F19EF1} = {E98CDA00-B80A-4984-9FEA-933AFA1F9E56}
+		{3DFB6C3D-6A5A-4C5D-8A99-0583D729E14C} = {88C40A3D-2437-4E38-BC35-FF85D41CEADA}
+	EndGlobalSection
+EndGlobal
